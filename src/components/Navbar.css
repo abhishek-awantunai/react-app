@@ -1,0 +1,20 @@
+.content{
+    padding: 10px;
+}
+.content ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: left;
+}
+.content ul li {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: darkcyan;
+}
+.content ul li a {
+    color: black;
+}
+.content ul li a.active {
+    color: red;
+}
