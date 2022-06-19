@@ -9,12 +9,14 @@ import Category from './pages/Category';
 import Home from './pages/Home';
 import Welcome from './pages/Welcome';
 import NavBar from './components/Navbar';
+import CustomHooks from './pages/CustomHooks';
 
 const App = () => {
     return (
         <React.Fragment>
             <NavBar />
             <Routes>
+                <Route exact path='/custom-hooks' element={<CustomHooks term={'abeeee1'} />} />
                 <Route exact path='/product/:id' element={<Product term={'abeeee1'} />} />
                 <Route exact path='/products' element={<Products term={'abeeee1'} />} />
                 <Route exact path='/cart' element={<Cart term={'abeeee2'} />} />

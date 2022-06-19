@@ -7,6 +7,9 @@ const NavBar = () => {
             <h1>Navbar Section</h1>
             <ul>
                 <li>
+                    <NavLink to="/custom-hooks">Custom Hooks</NavLink>
+                </li>
+                <li>
                     <NavLink to="/welcome">Welcome</NavLink>
                 </li>
                 <li>
