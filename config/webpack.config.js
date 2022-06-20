@@ -745,11 +745,6 @@ module.exports = function (webpackEnv) {
             },
           },
         }),
-        new webpack.DefinePlugin({
-          'process.env': {
-              NODE_ENV: JSON.stringify('development')
-          }
-      })
     ].filter(Boolean),
     // Turn off performance processing because we utilize
     // our own hints via the FileSizeReporter
